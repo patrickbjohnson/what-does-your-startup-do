@@ -1,0 +1,22 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "susy";
+@import "compass/reset", "mixins";
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+$total-columns  : 12;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+$show-grid-backgrounds  : true;
+
+$button-color: #3F9933;
+
+.container {
+  @include container;
+  display: table;
+}

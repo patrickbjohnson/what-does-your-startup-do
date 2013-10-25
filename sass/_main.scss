@@ -1,0 +1,15 @@
+.main {
+	padding: 200px 0 0;
+	p {font-size: 4em; font-style: italic; margin-bottom: 50px;}
+	a {display: block; }
+	button {
+		width: 250px;
+		height: 45px;
+		margin-top: 100px;
+		border: 0;
+		background: $button-color;
+		cursor: pointer;
+		@include vendor-prefix(transition, 200ms background ease);
+		&:hover {background: darken($button-color, 10%);}
+	}
+}

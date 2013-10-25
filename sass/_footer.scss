@@ -1,0 +1,11 @@
+.footer {
+	position: absolute;
+	bottom:0; left:0; right: 0;
+	padding: 15px 0;
+	p { font-size: 0.850em;}
+	a { text-decoration: none; color: #000;
+		&:visted{ color: #000;}
+		&:hover {color: #000; text-decoration: underline;}
+		&:active {color: #000;}
+	}
+}
