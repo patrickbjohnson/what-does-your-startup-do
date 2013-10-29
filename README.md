@@ -7,7 +7,7 @@ We don't know what they sell, what business or industry they're in but apparentl
 
 Phrases
 -------------
-The site is randomly selecting from an array of objects. None of the phrases are used by any existing startups directly. Some have been modified from their original form. 
+The site is randomly selects from an array of objects. None of the phrases are used by any existing startups directly. Some have been modified from their original form. 
 
 - We connect users in single meeting place to share consumer experiences.
 - We create happy interactions for mobile audiences."
