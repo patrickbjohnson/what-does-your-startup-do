@@ -10,11 +10,28 @@
     <meta name="description" content="#####">
     <meta name="viewport" content="width=device-width">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="icon" type="favicon.ico" href="http://whatdoesyourstartupdo.co/favicon.ico">
     <link rel="stylesheet" href="stylesheets/screen.css">
-    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/tgx3nnp.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <!-- Modernizr -->
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+     <script type="text/javascript">
+
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-36397471-3']);
+       _gaq.push(['_trackPageview']);
+
+       (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+     </script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -22,16 +39,12 @@
   <![endif]-->
 
 <div class="container">
-  <header class="header">
-      <h1>What Does Your Startup Do?</h1>
-  </header>
   <section class="main">
-      <p class="bullshit"></p>
-      <a href="#">Some random tech company</a><span>
-      <button>Give me another</button>
+    <p class="bullshit"></p>
+  <button>Give me another</button>   
   </section>
   <footer class="footer">
-      <p>brought to you by <a href="#">pbj</a></p>
+    <p>brought to you by <a href="http://www.pbj.me">pbj</a></p>
   </footer>
 </div>
          
@@ -46,10 +59,14 @@
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src='//www.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36397471-3', 'whatdoesyourstartupdo.co');
+    ga('send', 'pageview');
+
   </script>
 </body>
 </html>

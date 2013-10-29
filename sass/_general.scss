@@ -1,2 +1,14 @@
-body {text-align: center;}
-a {text-decoration: none; color: #000;}
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html {
+	background: url(../img/coffee.jpg) no-repeat center center;
+	@include vendor-prefix(background, cover);
+}
+
+body {font-family: $font-main; color: #fff;text-align: center; }
+
+
+a, a:active,
+a:link, a:visited,
+a:focus, a:hover {color: #000;}
+a:hover {text-decoration: underline;}
+

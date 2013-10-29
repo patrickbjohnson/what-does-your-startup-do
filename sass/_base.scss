@@ -14,9 +14,13 @@ $grid-padding   : $gutter-width;
 
 $show-grid-backgrounds  : true;
 
-$button-color: #3F9933;
+$font-main: "freight-display-pro",sans-serif;
+$font-weight: 700;
+$font-button: "source-sans-pro",sans-serif;
+$button-color: #fff;
 
 .container {
   @include container;
   display: table;
 }
+

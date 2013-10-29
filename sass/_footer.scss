@@ -1,11 +1,8 @@
 .footer {
-	position: absolute;
-	bottom:0; left:0; right: 0;
-	padding: 15px 0;
-	p { font-size: 0.850em;}
-	a { text-decoration: none; color: #000;
-		&:visted{ color: #000;}
-		&:hover {color: #000; text-decoration: underline;}
-		&:active {color: #000;}
-	}
+	// position: absolute;
+	// bottom:0; left:0; right: 0;
+	margin-top: 85px;
+	padding: 10px 0;
+	p { font-size: 0.700em; letter-spacing: 1px;}
+	p, p a {color: rgba(255,255,255,0.2); outline: none;}
 }
