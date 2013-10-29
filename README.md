@@ -2,7 +2,7 @@ What Does Your Startup Do?
 =========================
 The site randomly selects a vague, nondescript 'mission statement' that outlines what a startup does. 
 
-We Don't know what they sell, what business or industry their in. Apparently we only care they sell 'happiness' and 'pixel-perfect' things. 
+We don't know what they sell, what business or industry they're in but apparently they sell 'happiness' and 'pixel-perfect' things. 
 
 
 Phrases
@@ -26,6 +26,6 @@ The site is randomly selecting from an array of objects. None of the phrases are
 - We generate buzz and brand-awareness for consumers.
 - We handcraft brand experiences to enable brand advocates & consumers.
 
-If you'd like to contribute by adding additional phrases [email me](mailto:im@pbj.me).
+If you'd like to contribute by adding phrases [email me](mailto:im@pbj.me).
 
 Site is live at www.whatdoesyourstartupdo.co
