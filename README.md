@@ -26,4 +26,6 @@ The site is randomly selecting from an array of objects. None of the phrases are
 - We generate buzz and brand-awareness for consumers.
 - We handcraft brand experiences to enable brand advocates & consumers.
 
-If you'd like to contribute by addigin additional phrases [email me](mailto:im@pbj.me).
+If you'd like to contribute by adding additional phrases [email me](mailto:im@pbj.me).
+
+Site is live at www.whatdoesyourstartupdo.co
