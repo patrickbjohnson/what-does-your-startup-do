@@ -1,7 +1,7 @@
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 html {
 	background: url(../img/coffee.jpg) no-repeat center center;
-	@include vendor-prefix(background, cover);
+	@include vendor-prefix(background-size, cover);
 }
 
 body {font-family: $font-main; color: #fff;text-align: center; }

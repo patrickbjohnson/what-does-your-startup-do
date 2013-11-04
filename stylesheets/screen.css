@@ -80,11 +80,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 html {
   background: url(../img/coffee.jpg) no-repeat center center;
-  background: cover;
-  -webkit-background: cover;
-  -ms-background: cover;
-  -moz-background: cover;
-  -o-background: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 body {
