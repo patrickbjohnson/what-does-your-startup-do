@@ -1,6 +1,6 @@
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 html {
-	background: url(../img/coffee.jpg) no-repeat center center;
+	background: url(../img/coffee.jpg) no-repeat;
 	@include vendor-prefix(background-size, cover);
 }
 
