@@ -19,16 +19,15 @@ $(document).ready(function(){
 			{"phrase": "We handcraft brand experiences to enable brand advocates & consumers."}
 			];
 
+   // initialize the first phrase
 	random();
 
 	function random(){
 		var number = bullshit[Math.floor(Math.random() * bullshit.length)];
-		$('.main .bullshit').text(number.phrase).animate({});
+		$('.main .bullshit').text(number.phrase);
 	};
 
-	$('.main button').on('click', function(){
-		random();
-	});
+	$('.main button').on('click', random);
 
 });
 
